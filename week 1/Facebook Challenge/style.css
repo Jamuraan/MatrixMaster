@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: #4267B2;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    height: 80px;
+}
+.div-facebook-logo {
+    display: flex;
+    /* justify-content: center; */
+    padding: 20px 0px;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* padding: 0px 0px 0px 0px
+           top right bottom left */
+
+/* padding: 0px 0px 0px
+top + bottom right left */
+
+/* padding: 0px 0px
+top + bottom right+left */
+
+/* padding: 0px
+top + bottom + right + left */
+
+h1 {
+    display: flex;
+    justify-content: flex-start;
+    color : white;
+    padding: 0px;
+}
+
+h3 {
+    color: rgb(18, 18, 125);
+}
+
+
+.logIn form {
+    display: flex;
+    color: white;
+    gap: 20px;
+
+}
+
+.inputs {
+    display: block;
+    justify-content: flex-end;
+    font-size: medium;
+
+}
+.inputs input {
+    padding: 8px 2px;
+    border: none;
+
+}
+
+/* .button {
+    text-align: center;
+    margin-top: 200px;
+} */
+
+button {
+    padding: 5px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    background-color: #5b7bc0;
+    border: 1px solid darkblue;
+    margin-top: 18px;
+}
+
+/* .button2 {
+    background-color: green;
+} */
+
+#main-section {
+    display: flex;
+    justify-content: center;
+    background-color: #F0F2F5;
+}
+
+#left-section {
+    margin: 20px;
+    height: 100px;
+    width: 30%;
+    border: 100px red;
+}
+
+#right-section {
+    text-align: center;    
+}
+
+
+.form {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    
+}
+
+
+
+form {
+        width: 500px;
+}
+
+label {
+        display: inline-block;
+        width: 200px;
+        align-self:flex-start;
+}
+
+input {
+        display: inline-block;
+}
+
+.Sign-up {
+    margin: 20px;
+}
+
+
+a {
+    margin-right: 10px; /* Adds 10 pixels of space to the right of each link */
+}
+
+.footer {
+    text-align: center;        
+}
+
+.footer-end {
+    text-align: center;    
+}
+
+.centered-hr {
+    width: 50%;
+    margin: 0 auto;
+    border: none;
+    border-top: 1px solid black;
+}
+
+
+
